@@ -3460,14 +3460,6 @@ pkg_statman_fetch = git
 pkg_statman_repo = https://github.com/knutin/statman
 pkg_statman_commit = master
 
-PACKAGES += statsderl
-pkg_statsderl_name = statsderl
-pkg_statsderl_description = StatsD client (erlang)
-pkg_statsderl_homepage = https://github.com/lpgauth/statsderl
-pkg_statsderl_fetch = git
-pkg_statsderl_repo = https://github.com/lpgauth/statsderl
-pkg_statsderl_commit = master
-
 PACKAGES += stdinout_pool
 pkg_stdinout_pool_name = stdinout_pool
 pkg_stdinout_pool_description = stdinout_pool    : stuff goes in, stuff goes out. there's never any miscommunication.
@@ -3795,14 +3787,6 @@ pkg_vmq_systree_homepage = https://verne.mq/
 pkg_vmq_systree_fetch = git
 pkg_vmq_systree_repo = https://github.com/erlio/vmq_systree
 pkg_vmq_systree_commit = master
-
-PACKAGES += vmstats
-pkg_vmstats_name = vmstats
-pkg_vmstats_description = tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs.
-pkg_vmstats_homepage = https://github.com/ferd/vmstats
-pkg_vmstats_fetch = git
-pkg_vmstats_repo = https://github.com/ferd/vmstats
-pkg_vmstats_commit = master
 
 PACKAGES += walrus
 pkg_walrus_name = walrus
